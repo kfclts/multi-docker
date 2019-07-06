@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "express server",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon"
-  },
+  "author": "KFC",
+  "license": "ISC"
   "dependencies": {
     "express": "^4.16.3",
     "pg": "^7.4.3",
@@ -16,6 +13,9 @@
     "nodemon": "^1.18.3",
     "body-parser": "*"
   },
-  "author": "KFC",
-  "license": "ISC"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "start": "node index.js"
+  }
 }
